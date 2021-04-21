@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime:wght@700&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    /* background-color: aquamarine; */
+    margin: 0 auto;
+}
+
+header {
+    background-color: #F9003D;
+    height: 60px;
+    position: fixed;
+    top: 0px;
+    z-index: 99;
+    width: 100%;
+}
+
+.container_header {
+    display: flex;
+    justify-content: flex-end;
+    height: 100%;
+}
+
+.menu_header {
+    display: flex;
+    justify-content: space-between;
+    align-items:center ;
+    /* background-color: beige; */
+    width: 590px;
+}
+
+.menu_header a {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 24px;
+    /* identical to box height */
+    color: #FFFFFF;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main {
+    margin-top: 60px;
+}
+
+.home {
+    background-image: url(../assets_/imagem-fundo-banner.png);
+}
+
+.container-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 740px; 
+}
+
+.imagem-fundo-banner {
+    width: 100%;
+    top: 60px;
+    background: url(imagem-fundo-banner.jpg);
+}
+
+.título-1 {
+    /* DESENVOLVIMENTO DE SISTEMAS 2021 */
+
+    width: 545px;
+    height: 230px;
+    left: 121px;
+    top: 286px;
+
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 96px;
+    line-height: 115px;
+
+    color: #FFFFFF;
+}
+
+.line-1 {
+    /* Line 1 */
+
+    width: 545px;
+    border: 1px solid #FFAF00;
+}
+
+.SENAI-INFORMÁTICA {
+    /* SENAI INFORMÁTICA */
+  
+    width: 544px;
+    height: 68px;
+  
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 53px;
+    line-height: 60px;
+    text-transform: uppercase;
+  
+    color: #F9003D;
+}
+
+.mouse {
+    /* Vector */
+    height: 80.00001525878906px;
+    width: 37.30839538574219px;
+    left: 21.34564208984375px;
+
+}
+
+.sobre {
+    background-color: #080324 ;
+    color: white;
+    height: 800px;
+}
+
+.espaçamento-sobre {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+}
+
+.titulo-2 {
+    /* SOBRE Os projetos */
+    
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+    text-transform: uppercase;
+    /* identical to box height */
+    
+    color: #F9003D;
+}
+
+.box-sobre {
+    display: flex;
+    justify-content: space-between;
+}
+
+.participantes {
+    /* PARTICIPANTES */
+
+    margin-left: 117px;
+    margin-top: 18px;
+    font-family: 'Courier New', Courier, monospace;  
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}
+
+.alunos {
+    /* mais de 80 alunos organizados em 16 grupos */
+
+    margin-left: 117px;
+    margin-top: 18px;
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 64px;
+    line-height: 77px;
+    text-transform: uppercase;
+
+    color: #FFAF00;
+}
+
+.texto-sobre {
+    /* Lorem ipsum*/
+    
+    margin-left: 117px;
+    margin-top: 18px;
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: uppercase; 
+
+    color: #FFFFFF;
+}
+
+.info {
+    background-image: url(../assets_/imagem-fundo-info.png);
+}
+
+.container-info {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 193px;   
+}
+
+.info h2 {
+    /* LOCAL */
+
+    width: 288px;
+    height: 34px;
+    left: 120px;
+    top: 1635px;
+
+    font-family: 'Courier New', Courier, monospace;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 27px;
+    text-transform: uppercase;
+
+    color: #FFFFFF;
+}   
+.box-span {
+    border: 1px solid #A259F7;
+    height: 100px;
+    width: 289px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-span span {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    font-size: 28px;
+    text-transform: uppercase;
+        
+    color: #A259F7;
+}
+
+.endereço {
+    background-image: url(../assets_/imagem-fundo-endereco.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 515px; 
+    position: relative;  
+}
+
+.endereço h2 {
+    font-family: 'Bebas Neue', cursive;
+    font-style: normal;
+    font-weight: 500px;
+    font-size: 64px;
+    width: 899px;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+    color: #FFAF00;
+}
+
+.box-endereço {
+    width: 899px;
+    height: 203px   ;
+    background-color: #010010;
+    border: 2px solid #340B65;
+    display: flex;
+    align-items: center;
+}
+
+.box-endereço p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+    text-transform: uppercase;
+    width: 435px;
+    margin-left: 60px;
+    color: #A259F7;
+}
+
+.box-endereço img {
+    margin-left: 60px;
+    margin-bottom: 110px;
+}
+
+footer {
+    height: 82px;
+    background: #F9003D;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer span {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 25px;
+    
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #FFFFFF;
+
+}
